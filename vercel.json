@@ -3,5 +3,12 @@
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
-  "files": ["index.html", "styles.css", "logo/**"]
+  "files": ["index.html", "styles.css", "logo/**"],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.recrewables.com/$1",
+      "permanent": true
+    }
+  ]
 }
