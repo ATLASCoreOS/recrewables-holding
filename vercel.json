@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*": {
+      "excludeFiles": "Brief/**"
+    }
+  },
+  "buildCommand": false,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "files": ["index.html", "styles.css", "logo/**"]
+}
