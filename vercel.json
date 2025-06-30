@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*": {
-      "excludeFiles": "Brief/**"
-    }
-  },
   "buildCommand": null,
   "outputDirectory": ".",
   "cleanUrls": true,
